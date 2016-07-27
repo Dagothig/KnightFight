@@ -1,0 +1,407 @@
+﻿Log file open, 06/22/16 16:53:59
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(399302564) SRandInit(399302565).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.659233
+LogInit: Version: 4.12.2-3005592+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3005592
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jun  8 2016 08:52:10
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: 
+LogInit: Base directory: C:/Users/Guillaume/Documents/Unreal Projects/KnightFight/Out/WindowsNoEditor/KnightFight/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogVoice:Warning: Failed to initialize voice interface
+LogInit: Presizing for max 2097152 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.06.22-20.53.59:746][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2016.06.22-20.53.59:746][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2016.06.22-20.53.59:756][  0]LogInit: Computer: PROGBOX
+[2016.06.22-20.53.59:756][  0]LogInit: User: Guillaume
+[2016.06.22-20.53.59:756][  0]LogInit: CPU Page size=65536, Cores=2
+[2016.06.22-20.53.59:756][  0]LogInit: High frequency timer resolution =1.753830 MHz
+[2016.06.22-20.53.59:757][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.06.22-20.53.59:757][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2016.06.22-20.53.59:757][  0]LogMemory: Process Physical Memory: 69.23 MB used, 69.23 MB peak
+[2016.06.22-20.53.59:757][  0]LogMemory: Process Virtual Memory: 84.13 MB used, 84.13 MB peak
+[2016.06.22-20.53.59:757][  0]LogMemory: Physical Memory: 5423.36 MB used, 8065.27 MB total
+[2016.06.22-20.53.59:757][  0]LogMemory: Virtual Memory: 306.61 MB used, 134217728.00 MB total
+[2016.06.22-20.53.59:796][  0]LogTextLocalizationManager: No translations for ('fr-CA') exist, falling back to 'en' for localization and internationalization data.
+[2016.06.22-20.53.59:904][  0]LogD3D11RHI: D3D11 adapters:
+[2016.06.22-20.53.59:908][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2016.06.22-20.53.59:908][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2016.06.22-20.53.59:910][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.06.22-20.53.59:910][  0]LogD3D11RHI:       0/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.06.22-20.53.59:910][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.06.22-20.53.59:917][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.06.22-20.53.59:917][  0]LogD3D11RHI:     GPU DeviceId: 0x166 (for the marketing name, search the web for "GPU Device Id")
+[2016.06.22-20.53.59:917][  0]LogWindows: EnumDisplayDevices:
+[2016.06.22-20.53.59:918][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2016.06.22-20.53.59:918][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2016.06.22-20.53.59:918][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2016.06.22-20.53.59:918][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2016.06.22-20.53.59:918][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4000
+[2016.06.22-20.53.59:918][  0]LogD3D11RHI:   Driver Version: 10.18.10.4276 (internal:10.18.10.4276, unified:10.18.10.4276)
+[2016.06.22-20.53.59:918][  0]LogD3D11RHI:      Driver Date: 8-17-2015
+[2016.06.22-20.53.59:918][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2016.06.22-20.53.59:923][  0]LogD3D11RHI: Async texture creation enabled
+[2016.06.22-20.53.59:935][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2016.06.22-20.54.00:105][  0]LogAssetRegistry: FAssetRegistry took 0.0035 seconds to start up
+[2016.06.22-20.54.00:108][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.002286 seconds
+[2016.06.22-20.54.00:115][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2016.06.22-20.54.00:115][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2016.06.22-20.54.00:258][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.22-20.54.00:258][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.22-20.54.00:383][  0]LogMoviePlayer: Initializing movie player
+[2016.06.22-20.54.00:534][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../KnightFight/Content/Movies/Default_Startup.mp4
+[2016.06.22-20.54.00:573][  0]LogUObjectArray: 27469 objects as part of root set at end of initial load.
+[2016.06.22-20.54.00:573][  0]LogUObjectAllocator: 5470272 out of 0 bytes used by permanent object pool.
+[2016.06.22-20.54.00:573][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.06.22-20.54.00:584][  0]LogEngine: Initializing Engine...
+[2016.06.22-20.54.00:672][  0]LogHMD: SteamVR failed to initialize.  Err: 104
+[2016.06.22-20.54.00:674][  0]LogHMD: SteamVR failed to initialize.  Err: 104
+[2016.06.22-20.54.00:732][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.22-20.54.00:753][  0]LogInit: FAudioDevice initialized.
+[2016.06.22-20.54.00:753][  0]LogInit: Texture streaming: Enabled
+[2016.06.22-20.54.00:753][  0]LogModuleManager:Warning: ModuleManager: Module 'MessagingRpc' not found - its StaticallyLinkedModuleInitializers function is null.
+[2016.06.22-20.54.00:753][  0]LogModuleManager:Warning: ModuleManager: Module 'PortalRpc' not found - its StaticallyLinkedModuleInitializers function is null.
+[2016.06.22-20.54.00:753][  0]LogModuleManager:Warning: ModuleManager: Module 'PortalServices' not found - its StaticallyLinkedModuleInitializers function is null.
+[2016.06.22-20.54.00:765][  0]LogNet: Browse: /Game/Main/MainWorld?Name=Player
+[2016.06.22-20.54.00:765][  0]LogLoad: LoadMap: /Game/Main/MainWorld?Name=Player
+[2016.06.22-20.54.00:794][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2016.06.22-20.54.00:794][  0]LogMemory: Process Physical Memory: 188.48 MB used, 188.48 MB peak
+[2016.06.22-20.54.00:794][  0]LogMemory: Process Virtual Memory: 196.52 MB used, 252.68 MB peak
+[2016.06.22-20.54.00:794][  0]LogMemory: Physical Memory: 5547.13 MB used, 8065.27 MB total
+[2016.06.22-20.54.00:794][  0]LogMemory: Virtual Memory: 545.76 MB used, 134217728.00 MB total
+[2016.06.22-20.54.00:794][  0]LogMemory: 
+[2016.06.22-20.54.00:795][  0]LogMemory: Allocator Stats for binned:
+[2016.06.22-20.54.00:795][  0]LogMemory: Current Memory 77.12 MB used, plus 5.94 MB waste
+[2016.06.22-20.54.00:795][  0]LogMemory: Peak Memory 79.12 MB used, plus 5.50 MB waste
+[2016.06.22-20.54.00:795][  0]LogMemory: Current OS Memory 83.06 MB, peak 84.63 MB
+[2016.06.22-20.54.00:795][  0]LogMemory: Current Waste 1.10 MB, peak 1.39 MB
+[2016.06.22-20.54.00:795][  0]LogMemory: Current Used 77.12 MB, peak 79.12 MB
+[2016.06.22-20.54.00:795][  0]LogMemory: Current Slack 4.84 MB
+[2016.06.22-20.54.00:795][  0]LogMemory: Allocs       139729 Current /  902995 Total
+[2016.06.22-20.54.00:795][  0]LogMemory: 
+[2016.06.22-20.54.00:795][  0]LogMemory: Block Size Num Pools Max Pools Cur Allocs Total Allocs Min Req Max Req Mem Used Mem Slack Mem Waste Efficiency
+[2016.06.22-20.54.00:795][  0]LogMemory: ---------- --------- --------- ---------- ------------ ------- ------- -------- --------- --------- ----------
+[2016.06.22-20.54.00:795][  0]LogMemory:          8         0         0          0            0       8       0       0K        0K        0K    100.00%
+[2016.06.22-20.54.00:795][  0]LogMemory:         16         7         7      21733       281664      16      16     339K      109K        0K    100.00%
+[2016.06.22-20.54.00:795][  0]LogMemory:         32        11        11      21238        88917      17      32     663K       41K       61K     91.34%
+[2016.06.22-20.54.00:795][  0]LogMemory:         48         8         8       9683        46272      33      48     453K       59K       53K     89.65%
+[2016.06.22-20.54.00:795][  0]LogMemory:         64        20        20      19823        92010      49      64    1238K       42K      137K     89.30%
+[2016.06.22-20.54.00:795][  0]LogMemory:         80        11        11       8431        81219      65      80     658K       46K       42K     94.03%
+[2016.06.22-20.54.00:795][  0]LogMemory:         96         5         5       3263        44275      81      96     305K       15K       18K     94.38%
+[2016.06.22-20.54.00:795][  0]LogMemory:        112         4         5       2223        18774      97     112     243K       13K       16K     93.75%
+[2016.06.22-20.54.00:795][  0]LogMemory:        128        18        18       8560        28355     114     128    1070K       82K       39K     96.61%
+[2016.06.22-20.54.00:795][  0]LogMemory:        160        41        41      16708        39852     129     160    2610K       11K      187K     92.87%
+[2016.06.22-20.54.00:795][  0]LogMemory:        192        24        24       7679        21045     161     192    1439K       96K      104K     93.23%
+[2016.06.22-20.54.00:795][  0]LogMemory:        224         5         5       1256        33379     193     224     274K       46K       19K     94.06%
+[2016.06.22-20.54.00:795][  0]LogMemory:        256         4         4        914         9601     226     256     228K       28K       12K     95.31%
+[2016.06.22-20.54.00:795][  0]LogMemory:        288        26        47       5675        36324     257     288    1596K       64K      157K     90.56%
+[2016.06.22-20.54.00:795][  0]LogMemory:        320         3         3        463        26777     290     320     144K       48K        1K     99.48%
+[2016.06.22-20.54.00:795][  0]LogMemory:        384        19        19       3145         7817     322     384    1179K       33K      109K     91.04%
+[2016.06.22-20.54.00:795][  0]LogMemory:        448         4         4        531        15443     386     448     232K       24K       20K     92.19%
+[2016.06.22-20.54.00:795][  0]LogMemory:        512         5         5        589         9984     450     512     294K       26K       13K     95.94%
+[2016.06.22-20.54.00:795][  0]LogMemory:        576        30        31       3167         5083     514     576    1781K      126K       80K     95.83%
+[2016.06.22-20.54.00:795][  0]LogMemory:        640         7         8        641         1297     578     640     400K       47K       24K     94.64%
+[2016.06.22-20.54.00:795][  0]LogMemory:        704         9         9        579         1305     642     704     398K      178K       23K     96.01%
+[2016.06.22-20.54.00:795][  0]LogMemory:        768        10        10        541         1083     705     768     405K      233K        6K     99.06%
+[2016.06.22-20.54.00:795][  0]LogMemory:        896         4         4        198          803     769     896     173K       83K        8K     96.88%
+[2016.06.22-20.54.00:795][  0]LogMemory:       1024         7         8        286          881     904    1024     286K      162K       14K     96.88%
+[2016.06.22-20.54.00:795][  0]LogMemory:       1168         6         6        281          647    1025    1168     320K       64K       23K     94.01%
+[2016.06.22-20.54.00:795][  0]LogMemory:       1360         5         5        196         1075    1171    1360     260K       59K       26K     91.88%
+[2016.06.22-20.54.00:795][  0]LogMemory:       1632        10        11        381          749    1361    1632     607K       31K       46K     92.81%
+[2016.06.22-20.54.00:795][  0]LogMemory:       2048        13        13        271          944    1635    2048     542K      290K       55K     93.39%
+[2016.06.22-20.54.00:795][  0]LogMemory:       2336         6         6        121         1820    2050    2336     276K      108K       30K     92.19%
+[2016.06.22-20.54.00:795][  0]LogMemory:       2720         4         4         81          453    2342    2717     215K       40K       11K     95.70%
+[2016.06.22-20.54.00:795][  0]LogMemory:       3264        10        12        139         1249    2728    3264     443K      195K       28K     95.63%
+[2016.06.22-20.54.00:795][  0]LogMemory:       4096        22        29        206          787    3270    4096     824K      584K       73K     94.82%
+[2016.06.22-20.54.00:795][  0]LogMemory:       4672        15        16        107          399    4103    4672     488K      471K       26K     97.29%
+[2016.06.22-20.54.00:795][  0]LogMemory:       5456        19        25        105          413    4679    5451     559K      656K       47K     96.13%
+[2016.06.22-20.54.00:795][  0]LogMemory:       6544        20        21        129          382    5463    6540     824K      455K       65K     94.92%
+[2016.06.22-20.54.00:795][  0]LogMemory:       8192        13        15         67          932    6553    8192     536K      296K       41K     95.07%
+[2016.06.22-20.54.00:795][  0]LogMemory:       9360         7         8         48          111    8224    9360     438K       10K       25K     94.42%
+[2016.06.22-20.54.00:795][  0]LogMemory:      10912         6         7         35           62    9361   10895     372K       12K       36K     90.63%
+[2016.06.22-20.54.00:795][  0]LogMemory:      13104        12        12         56           93   10944   13056     716K       52K       61K     92.06%
+[2016.06.22-20.54.00:795][  0]LogMemory:      16384        11        13         41          161   13109   16384     656K       48K       47K     93.32%
+[2016.06.22-20.54.00:795][  0]LogMemory:      21840        16        18         48          108   16400   21063    1023K        1K      169K     83.50%
+[2016.06.22-20.54.00:795][  0]LogMemory:      32768        10        12         20           77   21904   32640     640K        0K      138K     78.44%
+[2016.06.22-20.54.00:795][  0]LogMemory:      49152         3         4         12          224       0   49152     576K        0K      178K     69.10%
+[2016.06.22-20.54.00:795][  0]LogMemory:      98304         2         3          8           20       0   97280     768K        0K      186K     75.78%
+[2016.06.22-20.54.00:795][  0]LogMemory: 
+[2016.06.22-20.54.00:795][  0]LogMemory: 32512K allocated in pools (with 4984K slack and 2454K waste). Efficiency 92.45%
+[2016.06.22-20.54.00:795][  0]LogMemory: Allocations 139679 Current / 902867 Total (in 492 pools)
+[2016.06.22-20.54.00:795][  0]LogMemory: 
+[2016.06.22-20.54.00:803][  0]LogAIModule: Creating AISystem for world MainWorld
+[2016.06.22-20.54.00:803][  0]LogWorld: Game class is 'MainMode_C'
+[2016.06.22-20.54.00:804][  0]LogWorld: Bringing World /Game/Main/MainWorld.MainWorld up for play (max tick rate 0) at 2016.06.22-16.54.00
+[2016.06.22-20.54.00:805][  0]LogWorld: Bringing up level for play took: 0.000807
+[2016.06.22-20.54.00:805][  0]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.22-20.54.00:811][  0]LogInit: WinSock: I am ProgBox (192.168.1.104:0)
+[2016.06.22-20.54.00:811][  0]LogLoad: Took 0.045574 seconds to LoadMap(/Game/Main/MainWorld)
+[2016.06.22-20.54.00:811][  0]LogInit:Display: Game Engine Initialized.
+[2016.06.22-20.54.01:014][  0]LogLoad: Full Startup: 2.18 seconds (BP compile: 0.00 seconds)
+[2016.06.22-20.54.01:014][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.06.22-20.54.01:014][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.06.22-20.54.01:031][  0]LogOcInput: OculusInput pre-init called
+[2016.06.22-20.54.01:167][  2]LogRenderer: Reallocating scene render targets to support 1368x768 (Frame:2).
+[2016.06.22-20.54.04:136][ 65]LogNet: Browse: /Game/Lobby/LobbyWorld?listen
+[2016.06.22-20.54.04:168][ 65]LogLoad: LoadMap: /Game/Lobby/LobbyWorld?listen
+[2016.06.22-20.54.04:219][ 65]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2016.06.22-20.54.04:219][ 65]LogMemory: Process Physical Memory: 349.34 MB used, 349.34 MB peak
+[2016.06.22-20.54.04:219][ 65]LogMemory: Process Virtual Memory: 463.19 MB used, 463.21 MB peak
+[2016.06.22-20.54.04:219][ 65]LogMemory: Physical Memory: 5713.60 MB used, 8065.27 MB total
+[2016.06.22-20.54.04:219][ 65]LogMemory: Virtual Memory: 854.16 MB used, 134217728.00 MB total
+[2016.06.22-20.54.04:219][ 65]LogMemory: 
+[2016.06.22-20.54.04:220][ 65]LogMemory: Allocator Stats for binned:
+[2016.06.22-20.54.04:220][ 65]LogMemory: Current Memory 82.76 MB used, plus 6.30 MB waste
+[2016.06.22-20.54.04:221][ 65]LogMemory: Peak Memory 85.90 MB used, plus 5.72 MB waste
+[2016.06.22-20.54.04:221][ 65]LogMemory: Current OS Memory 89.06 MB, peak 91.63 MB
+[2016.06.22-20.54.04:221][ 65]LogMemory: Current Waste 1.24 MB, peak 1.39 MB
+[2016.06.22-20.54.04:221][ 65]LogMemory: Current Used 82.77 MB, peak 85.90 MB
+[2016.06.22-20.54.04:221][ 65]LogMemory: Current Slack 5.06 MB
+[2016.06.22-20.54.04:221][ 65]LogMemory: Allocs       142033 Current /  955744 Total
+[2016.06.22-20.54.04:221][ 65]LogMemory: 
+[2016.06.22-20.54.04:221][ 65]LogMemory: Block Size Num Pools Max Pools Cur Allocs Total Allocs Min Req Max Req Mem Used Mem Slack Mem Waste Efficiency
+[2016.06.22-20.54.04:221][ 65]LogMemory: ---------- --------- --------- ---------- ------------ ------- ------- -------- --------- --------- ----------
+[2016.06.22-20.54.04:221][ 65]LogMemory:          8         0         0          0            0       8       0       0K        0K        0K    100.00%
+[2016.06.22-20.54.04:221][ 65]LogMemory:         16         7         7      21994       286970      16      16     343K      105K        0K    100.00%
+[2016.06.22-20.54.04:221][ 65]LogMemory:         32        11        11      21837        92239      17      32     682K       22K       63K     91.05%
+[2016.06.22-20.54.04:221][ 65]LogMemory:         48         8         8      10062        51873      33      48     471K       41K       52K     89.84%
+[2016.06.22-20.54.04:221][ 65]LogMemory:         64        20        20      20153        98654      49      64    1259K       21K      138K     89.22%
+[2016.06.22-20.54.04:221][ 65]LogMemory:         80        11        11       8517        85274      65      80     665K       39K       42K     94.03%
+[2016.06.22-20.54.04:221][ 65]LogMemory:         96         6         6       3354        52324      81      96     314K       70K       20K     94.79%
+[2016.06.22-20.54.04:221][ 65]LogMemory:        112         4         5       2293        20751      97     112     250K        6K       16K     93.75%
+[2016.06.22-20.54.04:221][ 65]LogMemory:        128        18        18       8613        29483     114     128    1076K       76K       40K     96.53%
+[2016.06.22-20.54.04:221][ 65]LogMemory:        160        42        42      16847        41278     129     160    2632K       53K      190K     92.93%
+[2016.06.22-20.54.04:221][ 65]LogMemory:        192        24        24       7724        23055     161     192    1448K       87K      105K     93.16%
+[2016.06.22-20.54.04:221][ 65]LogMemory:        224         5         5       1272        35795     193     224     278K       42K       19K     94.06%
+[2016.06.22-20.54.04:221][ 65]LogMemory:        256         4         4        978        10947     226     256     244K       12K       13K     94.92%
+[2016.06.22-20.54.04:221][ 65]LogMemory:        288        26        47       5683        37325     257     288    1598K       62K      155K     90.69%
+[2016.06.22-20.54.04:221][ 65]LogMemory:        320         3         3        468        27937     290     320     146K       46K        1K     99.48%
+[2016.06.22-20.54.04:221][ 65]LogMemory:        384        19        19       3175        10063     322     384    1190K       22K      109K     91.04%
+[2016.06.22-20.54.04:221][ 65]LogMemory:        448         4         4        537        15917     386     448     234K       22K       20K     92.19%
+[2016.06.22-20.54.04:221][ 65]LogMemory:        512         5         6        591        11385     450     512     295K       25K       11K     96.56%
+[2016.06.22-20.54.04:221][ 65]LogMemory:        576        30        31       3192         5353     514     576    1795K      112K       83K     95.68%
+[2016.06.22-20.54.04:221][ 65]LogMemory:        640         7         8        641         1395     578     640     400K       47K       23K     94.87%
+[2016.06.22-20.54.04:221][ 65]LogMemory:        704         9         9        588         1394     642     704     404K      172K       23K     96.01%
+[2016.06.22-20.54.04:221][ 65]LogMemory:        768        10        10        544         1170     705     768     408K      230K        7K     98.91%
+[2016.06.22-20.54.04:221][ 65]LogMemory:        896         4         4        204          862     769     896     178K       78K        8K     96.88%
+[2016.06.22-20.54.04:221][ 65]LogMemory:       1024         7         8        285         1845     904    1024     285K      163K        9K     97.99%
+[2016.06.22-20.54.04:221][ 65]LogMemory:       1168         6         6        288          989    1025    1168     328K       56K       18K     95.31%
+[2016.06.22-20.54.04:221][ 65]LogMemory:       1360         5         5        199         1412    1171    1360     264K       55K       25K     92.19%
+[2016.06.22-20.54.04:221][ 65]LogMemory:       1632        11        11        379          785    1361    1632     604K       98K       45K     93.61%
+[2016.06.22-20.54.04:221][ 65]LogMemory:       2048        13        13        273         1176    1635    2048     546K      286K       51K     93.87%
+[2016.06.22-20.54.04:221][ 65]LogMemory:       2336         6         6        119         1852    2050    2336     271K      113K       30K     92.19%
+[2016.06.22-20.54.04:221][ 65]LogMemory:       2720         4         4         83          460    2341    2717     220K       35K       11K     95.70%
+[2016.06.22-20.54.04:221][ 65]LogMemory:       3264        10        12        141         1260    2728    3264     449K      189K       29K     95.47%
+[2016.06.22-20.54.04:221][ 65]LogMemory:       4096        22        29        204          866    3270    4096     816K      592K       78K     94.46%
+[2016.06.22-20.54.04:221][ 65]LogMemory:       4672        15        16        104          414    4103    4672     474K      485K       25K     97.40%
+[2016.06.22-20.54.04:221][ 65]LogMemory:       5456        19        25        105          418    4679    5451     559K      656K       47K     96.13%
+[2016.06.22-20.54.04:221][ 65]LogMemory:       6544        20        21        129          392    5463    6540     824K      455K       65K     94.92%
+[2016.06.22-20.54.04:221][ 65]LogMemory:       8192        13        15         68         1029    6553    8192     544K      288K       43K     94.83%
+[2016.06.22-20.54.04:221][ 65]LogMemory:       9360         8         8         51          119    8224    9360     466K       46K       27K     94.73%
+[2016.06.22-20.54.04:221][ 65]LogMemory:      10912         6         7         32          129    9361   10895     341K       43K       27K     92.97%
+[2016.06.22-20.54.04:221][ 65]LogMemory:      13104        12        12         59           96   10944   13056     755K       13K       64K     91.67%
+[2016.06.22-20.54.04:221][ 65]LogMemory:      16384        13        14         42          176   13109   16384     672K      160K       49K     94.11%
+[2016.06.22-20.54.04:221][ 65]LogMemory:      21840        16        18         47          114   16400   21063    1002K       22K      166K     83.79%
+[2016.06.22-20.54.04:221][ 65]LogMemory:      32768        11        12         21           82   21904   32640     672K       32K      146K     79.26%
+[2016.06.22-20.54.04:221][ 65]LogMemory:      49152         4         5         14          230       0   49152     672K       96K      207K     73.05%
+[2016.06.22-20.54.04:222][ 65]LogMemory:      98304         2         3          8           22       0   97280     768K        0K      192K     75.00%
+[2016.06.22-20.54.04:222][ 65]LogMemory: 
+[2016.06.22-20.54.04:222][ 65]LogMemory: 33152K allocated in pools (with 5273K slack and 2492K waste). Efficiency 92.48%
+[2016.06.22-20.54.04:222][ 65]LogMemory: Allocations 141919 Current / 955311 Total (in 500 pools)
+[2016.06.22-20.54.04:222][ 65]LogMemory: 
+[2016.06.22-20.54.04:237][ 65]LogAIModule: Creating AISystem for world LobbyWorld
+[2016.06.22-20.54.04:237][ 65]LogWorld: Game class is 'LobbyMode_C'
+[2016.06.22-20.54.04:238][ 65]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.06.22-20.54.04:238][ 65]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.06.22-20.54.04:238][ 65]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2016.06.22-20.54.04:239][ 65]LogWorld: Bringing World /Game/Lobby/LobbyWorld.LobbyWorld up for play (max tick rate 0) at 2016.06.22-16.54.04
+[2016.06.22-20.54.04:240][ 65]LogWorld: Bringing up level for play took: 0.000777
+[2016.06.22-20.54.04:240][ 65]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.22-20.54.04:241][ 65]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
+[2016.06.22-20.54.04:244][ 65]LogLoad: Took 0.075979 seconds to LoadMap(/Game/Lobby/LobbyWorld)
+[2016.06.22-20.54.25:208][388]LogNet: Browse: /Game/Main/MainWorld
+[2016.06.22-20.54.25:232][388]LogLoad: LoadMap: /Game/Main/MainWorld
+[2016.06.22-20.54.25:232][388]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2016.06.22-20.54.25:232][388]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2016.06.22-20.54.25:239][388]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2016.06.22-20.54.25:335][388]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2016.06.22-20.54.25:335][388]LogMemory: Process Physical Memory: 347.68 MB used, 399.16 MB peak
+[2016.06.22-20.54.25:335][388]LogMemory: Process Virtual Memory: 464.23 MB used, 520.35 MB peak
+[2016.06.22-20.54.25:335][388]LogMemory: Physical Memory: 6011.79 MB used, 8065.27 MB total
+[2016.06.22-20.54.25:335][388]LogMemory: Virtual Memory: 844.84 MB used, 134217728.00 MB total
+[2016.06.22-20.54.25:335][388]LogMemory: 
+[2016.06.22-20.54.25:337][388]LogMemory: Allocator Stats for binned:
+[2016.06.22-20.54.25:337][388]LogMemory: Current Memory 83.10 MB used, plus 6.40 MB waste
+[2016.06.22-20.54.25:337][388]LogMemory: Peak Memory 86.04 MB used, plus 5.71 MB waste
+[2016.06.22-20.54.25:337][388]LogMemory: Current OS Memory 89.50 MB, peak 91.75 MB
+[2016.06.22-20.54.25:337][388]LogMemory: Current Waste 1.31 MB, peak 1.39 MB
+[2016.06.22-20.54.25:337][388]LogMemory: Current Used 83.10 MB, peak 86.04 MB
+[2016.06.22-20.54.25:337][388]LogMemory: Current Slack 5.09 MB
+[2016.06.22-20.54.25:337][388]LogMemory: Allocs       142206 Current /  1036932 Total
+[2016.06.22-20.54.25:337][388]LogMemory: 
+[2016.06.22-20.54.25:337][388]LogMemory: Block Size Num Pools Max Pools Cur Allocs Total Allocs Min Req Max Req Mem Used Mem Slack Mem Waste Efficiency
+[2016.06.22-20.54.25:337][388]LogMemory: ---------- --------- --------- ---------- ------------ ------- ------- -------- --------- --------- ----------
+[2016.06.22-20.54.25:338][388]LogMemory:          8         0         0          0            0       8       0       0K        0K        0K    100.00%
+[2016.06.22-20.54.25:338][388]LogMemory:         16         7         7      22016       293147      16      16     344K      104K        0K    100.00%
+[2016.06.22-20.54.25:338][388]LogMemory:         32        11        11      21883       100671      17      32     683K       21K       63K     91.05%
+[2016.06.22-20.54.25:338][388]LogMemory:         48         8         8      10131        59990      33      48     474K       38K       49K     90.43%
+[2016.06.22-20.54.25:338][388]LogMemory:         64        20        20      20151       105309      49      64    1259K       21K      133K     89.61%
+[2016.06.22-20.54.25:338][388]LogMemory:         80        11        11       8527        87131      65      80     666K       38K       42K     94.03%
+[2016.06.22-20.54.25:338][388]LogMemory:         96         6         6       3356        76695      81      96     314K       70K       22K     94.27%
+[2016.06.22-20.54.25:338][388]LogMemory:        112         4         5       2293        21609      97     112     250K        6K       16K     93.75%
+[2016.06.22-20.54.25:338][388]LogMemory:        128        18        18       8617        30494     114     128    1077K       75K       40K     96.53%
+[2016.06.22-20.54.25:338][388]LogMemory:        160        42        42      16847        42542     129     160    2632K       53K      187K     93.04%
+[2016.06.22-20.54.25:338][388]LogMemory:        192        24        24       7724        27487     161     192    1448K       87K      106K     93.10%
+[2016.06.22-20.54.25:338][388]LogMemory:        224         5         5       1275        38840     193     224     278K       42K       19K     94.06%
+[2016.06.22-20.54.25:338][388]LogMemory:        256         4         4        978        11257     226     256     244K       12K       13K     94.92%
+[2016.06.22-20.54.25:338][388]LogMemory:        288        26        47       5682        37424     257     288    1598K       62K      155K     90.69%
+[2016.06.22-20.54.25:338][388]LogMemory:        320         3         3        467        28707     290     320     145K       47K        1K     99.48%
+[2016.06.22-20.54.25:338][388]LogMemory:        384        19        19       3183        12761     322     384    1193K       19K      103K     91.53%
+[2016.06.22-20.54.25:338][388]LogMemory:        448         4         4        537        16276     386     448     234K       22K       20K     92.19%
+[2016.06.22-20.54.25:338][388]LogMemory:        512         5         6        591        11620     450     512     295K       25K       11K     96.56%
+[2016.06.22-20.54.25:338][388]LogMemory:        576        30        31       3193         5748     514     576    1796K      111K       90K     95.31%
+[2016.06.22-20.54.25:338][388]LogMemory:        640         7         8        641         1708     578     640     400K       47K       21K     95.31%
+[2016.06.22-20.54.25:338][388]LogMemory:        704         9         9        588         1734     642     704     404K      172K       24K     95.83%
+[2016.06.22-20.54.25:338][388]LogMemory:        768        10        10        543         1504     705     768     407K      231K        7K     98.91%
+[2016.06.22-20.54.25:338][388]LogMemory:        896         4         4        202          913     769     896     176K       80K        8K     96.88%
+[2016.06.22-20.54.25:338][388]LogMemory:       1024         7         8        285         6451     904    1024     285K      163K        6K     98.66%
+[2016.06.22-20.54.25:338][388]LogMemory:       1168         6         6        288         2295    1025    1168     328K       56K       11K     97.14%
+[2016.06.22-20.54.25:338][388]LogMemory:       1360         5         5        200         1577    1171    1360     265K       54K       24K     92.50%
+[2016.06.22-20.54.25:338][388]LogMemory:       1632        11        11        380          816    1361    1632     605K       97K       45K     93.61%
+[2016.06.22-20.54.25:338][388]LogMemory:       2048        13        13        277         1650    1635    2048     554K      278K       45K     94.59%
+[2016.06.22-20.54.25:338][388]LogMemory:       2336         6         6        120         1894    2050    2336     273K      111K       30K     92.19%
+[2016.06.22-20.54.25:338][388]LogMemory:       2720         4         4         83          464    2341    2717     220K       35K       11K     95.70%
+[2016.06.22-20.54.25:338][388]LogMemory:       3264        10        12        142         1267    2728    3264     452K      186K       29K     95.47%
+[2016.06.22-20.54.25:338][388]LogMemory:       4096        22        29        204         1201    3270    4096     816K      592K       97K     93.11%
+[2016.06.22-20.54.25:338][388]LogMemory:       4672        15        16        106          428    4103    4672     483K      476K       25K     97.40%
+[2016.06.22-20.54.25:338][388]LogMemory:       5456        19        25        104          423    4679    5451     554K      661K       47K     96.13%
+[2016.06.22-20.54.25:338][388]LogMemory:       6544        20        21        129          400    5463    6540     824K      455K       64K     95.00%
+[2016.06.22-20.54.25:338][388]LogMemory:       8192        13        15         68         1378    6553    8192     544K      288K       52K     93.75%
+[2016.06.22-20.54.25:338][388]LogMemory:       9360         8         8         52          124    8224    9360     475K       37K       29K     94.34%
+[2016.06.22-20.54.25:338][388]LogMemory:      10912         6         7         32          455    9361   10895     341K       43K       22K     94.27%
+[2016.06.22-20.54.25:338][388]LogMemory:      13104        13        13         62           99   10944   13056     793K       39K       68K     91.83%
+[2016.06.22-20.54.25:338][388]LogMemory:      16384        14        14         43          187   13109   16384     688K      208K       51K     94.31%
+[2016.06.22-20.54.25:338][388]LogMemory:      21840        16        18         47          118   16400   21063    1002K       22K      167K     83.69%
+[2016.06.22-20.54.25:338][388]LogMemory:      32768        11        12         21           84   21904   32640     672K       32K      147K     79.12%
+[2016.06.22-20.54.25:338][388]LogMemory:      49152         4         5         14          234       0   49152     672K       96K      208K     72.92%
+[2016.06.22-20.54.25:338][388]LogMemory:      98304         2         3          8           24       0   97280     768K        0K      197K     74.35%
+[2016.06.22-20.54.25:338][388]LogMemory: 
+[2016.06.22-20.54.25:338][388]LogMemory: 33280K allocated in pools (with 5312K slack and 2505K waste). Efficiency 92.47%
+[2016.06.22-20.54.25:338][388]LogMemory: Allocations 142091 Current / 1035137 Total (in 502 pools)
+[2016.06.22-20.54.25:338][388]LogMemory: 
+[2016.06.22-20.54.25:358][388]LogAIModule: Creating AISystem for world MainWorld
+[2016.06.22-20.54.25:358][388]LogWorld: Game class is 'MainMode_C'
+[2016.06.22-20.54.25:360][388]LogWorld: Bringing World /Game/Main/MainWorld.MainWorld up for play (max tick rate 0) at 2016.06.22-16.54.25
+[2016.06.22-20.54.25:361][388]LogWorld: Bringing up level for play took: 0.002098
+[2016.06.22-20.54.25:365][388]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.06.22-20.54.25:374][388]LogLoad: Took 0.142449 seconds to LoadMap(/Game/Main/MainWorld)
+[2016.06.22-20.54.26:855][405]Closing by request
+[2016.06.22-20.54.26:867][405]LogWindows: FPlatformMisc::RequestExit(0)
+[2016.06.22-20.54.26:879][406]LogMoviePlayer: Shutting down movie player
+[2016.06.22-20.54.27:791][406]LogSlate: Window 'KnightFight' being destroyed
+[2016.06.22-20.54.27:825][406]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.06.22-20.54.27:995][406]LogExit: Preparing to exit.
+[2016.06.22-20.54.28:383][406]LogExit: Game engine shut down
+[2016.06.22-20.54.28:801][406]LogObj: Freed 32b from 1 cluster array pools.
+[2016.06.22-20.54.28:801][406]LogExit: Object subsystem successfully closed.
+[2016.06.22-20.54.29:149][406]LogD3D11RHI: Shutdown
+[2016.06.22-20.54.29:149][406]LogD3D11RHI: CleanupD3DDevice
+[2016.06.22-20.54.29:628][406]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.06.22-20.54.29:639][406]LogModuleManager: Shutting down and abandoning module AutomationController (65)
+[2016.06.22-20.54.29:648][406]LogModuleManager: Shutting down and abandoning module AutomationWorker (64)
+[2016.06.22-20.54.29:660][406]LogModuleManager: Shutting down and abandoning module CharacterAI (63)
+[2016.06.22-20.54.29:660][406]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2016.06.22-20.54.29:661][406]LogModuleManager: Shutting down and abandoning module GameplayDebugger (61)
+[2016.06.22-20.54.29:673][406]LogModuleManager: Shutting down and abandoning module AIModule (60)
+[2016.06.22-20.54.29:683][406]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (59)
+[2016.06.22-20.54.29:683][406]LogModuleManager: Shutting down and abandoning module AnalyticsET (58)
+[2016.06.22-20.54.29:683][406]LogModuleManager: Shutting down and abandoning module Analytics (57)
+[2016.06.22-20.54.29:683][406]LogModuleManager: Shutting down and abandoning module ProfilerService (53)
+[2016.06.22-20.54.29:897][406]LogModuleManager: Shutting down and abandoning module TaskGraph (52)
+[2016.06.22-20.54.29:922][406]LogModuleManager: Shutting down and abandoning module HTML5Networking (51)
+[2016.06.22-20.54.29:922][406]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (50)
+[2016.06.22-20.54.29:922][406]LogModuleManager: Shutting down and abandoning module CableComponent (49)
+[2016.06.22-20.54.29:933][406]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (48)
+[2016.06.22-20.54.29:934][406]LogModuleManager: Shutting down and abandoning module OculusInput (47)
+[2016.06.22-20.54.29:934][406]LogModuleManager: Shutting down and abandoning module OculusLibrary (46)
+[2016.06.22-20.54.29:934][406]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (45)
+[2016.06.22-20.54.29:941][406]LogModuleManager: Shutting down and abandoning module SteamVRController (44)
+[2016.06.22-20.54.29:941][406]LogModuleManager: Shutting down and abandoning module SteamVR (43)
+[2016.06.22-20.54.29:941][406]LogModuleManager: Shutting down and abandoning module SlateRemote (42)
+[2016.06.22-20.54.29:941][406]LogModuleManager: Shutting down and abandoning module KnightFight (41)
+[2016.06.22-20.54.29:941][406]LogModuleManager: Shutting down and abandoning module Paper2D (40)
+[2016.06.22-20.54.29:943][406]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (39)
+[2016.06.22-20.54.29:943][406]LogModuleManager: Shutting down and abandoning module UdpMessaging (38)
+[2016.06.22-20.54.29:953][406]LogModuleManager: Shutting down and abandoning module Media (37)
+[2016.06.22-20.54.29:953][406]LogModuleManager: Shutting down and abandoning module WmfMedia (36)
+[2016.06.22-20.54.29:965][406]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (35)
+[2016.06.22-20.54.29:965][406]LogModuleManager: Shutting down and abandoning module ImageWrapper (34)
+[2016.06.22-20.54.29:965][406]LogModuleManager: Shutting down and abandoning module MediaAssets (33)
+[2016.06.22-20.54.29:965][406]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (32)
+[2016.06.22-20.54.29:976][406]LogModuleManager: Shutting down and abandoning module UMG (31)
+[2016.06.22-20.54.29:976][406]LogModuleManager: Shutting down and abandoning module SlateReflector (30)
+[2016.06.22-20.54.30:037][406]LogModuleManager: Shutting down and abandoning module Slate (29)
+[2016.06.22-20.54.30:037][406]LogModuleManager: Shutting down and abandoning module Messaging (28)
+[2016.06.22-20.54.30:037][406]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (27)
+[2016.06.22-20.54.30:037][406]LogModuleManager: Shutting down and abandoning module XAudio2 (26)
+[2016.06.22-20.54.30:037][406]LogModuleManager: Shutting down and abandoning module Networking (25)
+[2016.06.22-20.54.30:037][406]LogModuleManager: Shutting down and abandoning module Core (24)
+[2016.06.22-20.54.30:037][406]LogModuleManager: Shutting down and abandoning module AssetRegistry (23)
+[2016.06.22-20.54.30:048][406]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.06.22-20.54.30:048][406]LogModuleManager: Shutting down and abandoning module Voice (20)
+[2016.06.22-20.54.30:048][406]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2016.06.22-20.54.30:048][406]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.06.22-20.54.30:053][406]LogOnline:Display: Unloading online subsystem: Null
+[2016.06.22-20.54.30:067][406]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.06.22-20.54.34:599][406]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.06.22-20.54.34:599][406]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2016.06.22-20.54.34:650][406]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.06.22-20.54.34:650][406]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.06.22-20.54.34:650][406]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.06.22-20.54.34:696][406]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.06.22-20.54.34:730][406]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.06.22-20.54.34:730][406]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.06.22-20.54.34:730][406]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.06.22-20.54.34:730][406]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.06.22-20.54.34:730][406]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.06.22-20.54.34:730][406]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.06.22-20.54.34:730][406]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.06.22-20.54.34:730][406]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.06.22-20.54.34:730][406]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.06.22-20.54.34:872][406]LogExit: Exiting.
+[2016.06.22-20.54.34:876][406]Log file closed, 06/22/16 16:54:34
